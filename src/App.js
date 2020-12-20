@@ -8,7 +8,7 @@ function App() {
   // let [count, setCount] = useState(0);
   // let [isMorning , setMorning] = useState(true)
 
-  let [count, setCount] = useState(0);
+  // let [count, setCount] = useState(0);
   const countState = useState(1)
 
 
