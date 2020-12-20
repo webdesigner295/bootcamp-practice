@@ -1,4 +1,4 @@
-import react, { useContext } from 'react'
+import React, { useContext } from 'react'
 import CounterContext from './CounterContext'
 
 const Child = () => {
@@ -11,6 +11,7 @@ const Child = () => {
             
 
             <h3>Value of Counter = {counterValue[0]}</h3>
+            <input type="number" onChange={() => console.log("helooo")} />
             <button onClick = {()=>{counterValue[1](++counterValue[0])}}>Increment</button>
 
         
