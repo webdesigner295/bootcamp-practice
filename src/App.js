@@ -1,6 +1,6 @@
-import React, { useContext, useState } from "react";
+import React, { useState } from "react";
 import "./App.css";
-import About from "./About";
+// import About from "./About";
 import Parent from "./Parent";
 import CounterContext from "./CounterContext";
 

@@ -2,7 +2,7 @@ import React, { useReducer } from 'react'
 import counterReducer from './CounterReducer'
 
 const Child2 = () =>{
-    let [state, dispatch] = useReducer(counterReducer , 2)
+    let [state, dispatch] = useReducer(counterReducer , 0)
     console.log(state)
     return (
         <div>
