@@ -1,6 +1,5 @@
 import React, { createContext } from 'react'
 
-
-const CounterContext = createContext(100);
+const CounterContext = createContext(10);
 
 export default CounterContext;
