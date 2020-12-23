@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import CounterContext from './CounterContext'
 
-const Child = (props) =>{
+const Child = () =>{
     let counterValue = useContext(CounterContext)
     // console.log(counterValue)
     return(
